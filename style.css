@@ -73,9 +73,20 @@ body {
 }
 
 button {
-    font-family: 'Cabin';
-    border: none;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+button:hover {
+    background-color: #4c63af;
+    color: white;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #4c63af;
+    transform: scale(1);
+}
+
